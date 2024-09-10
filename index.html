@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="themeOne">
+    <div class="container">
+      <div class="header">
+        <p class="name">calc</p>
+        <div class="themeBtn">
+          <label for="">THEME</label>
+          <div class="toggleDiv">
+            <div class="nums">
+              <p class="number one">1</p>
+              <p class="number two">2</p>
+              <p class="number three">3   </p>
+            </div>
+            <div class="slider">
+              <div class="box">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screendiv">
+        <input type="text" readonly class="screen screenT1" placeholder="0">
+      </div>
+      <div class="keypad keypadT1">
+        <button class="numberKeyT1 numberkey">7</button>
+        <button class="numberKeyT1 numberkey">8</button>
+        <button class="numberKeyT1 numberkey">9</button>
+        <button class="bluebgT1 delResetT1">DEL</button>
+        <button class="numberKeyT1 numberkey">4</button>
+        <button class="numberKeyT1 numberkey">5</button>
+        <button class="numberKeyT1 numberkey">6</button>
+        <button class="numberKeyT1 numberkey">+</button>
+        <button class="numberKeyT1 numberkey">1</button>
+        <button class="numberKeyT1 numberkey">2</button>
+        <button class="numberKeyT1 numberkey">3</button>
+        <button class="numberKeyT1 numberkey">-</button>
+        <button class="numberKeyT1 numberkey">.</button>
+        <button class="numberKeyT1 numberkey">0</button>
+        <button class="numberKeyT1 numberkey">/</button>
+        <button class="numberKeyT1 numberkey" onclick="handleClick('x')">x</button>
+        <button class="dblWidth bluebgT1 delResetT1">RESET</button>
+        <button class="dblWidth redbg equalbtnT1 equalBtn">=</button>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Asim Nisar</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
